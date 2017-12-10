@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{20835b16-2832-499e-b6ac-91873d8796c3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84aaf113-e18d-4471-a534-88893a6b51dc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9160e2ab-0d45-4ff3-835e-61bc0f034150}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="studentDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="student.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="studentDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\student.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\student.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
