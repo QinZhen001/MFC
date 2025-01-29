@@ -19,7 +19,7 @@
 // See student.cpp for the implementation of this class
 //
 
-struct Item
+struct StudentItem
 	{
 		CString StrID;
 		CString StrName;

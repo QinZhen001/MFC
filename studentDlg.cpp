@@ -482,7 +482,7 @@ void CStudentDlg::OnMenuitemSortByIdN()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -513,7 +513,7 @@ void CStudentDlg::OnMenuitemSortByIdN()
 
 			if(score1<score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -570,7 +570,7 @@ void CStudentDlg::OnMenuitemSortByIdR()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -601,7 +601,7 @@ void CStudentDlg::OnMenuitemSortByIdR()
 
 			if(score1>score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -655,7 +655,7 @@ void CStudentDlg::OnMenuitemSortByEnglishN()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -686,7 +686,7 @@ void CStudentDlg::OnMenuitemSortByEnglishN()
 
 			if(score1<score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -747,7 +747,7 @@ CString StrText1,StrText2;
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -778,7 +778,7 @@ CString StrText1,StrText2;
 
 			if(score1>score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -839,7 +839,7 @@ void CStudentDlg::OnMenuitemSortByChineseN()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -870,7 +870,7 @@ void CStudentDlg::OnMenuitemSortByChineseN()
 
 			if(score1<score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -924,7 +924,7 @@ void CStudentDlg::OnMenuitemSortByChineseR()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -955,7 +955,7 @@ void CStudentDlg::OnMenuitemSortByChineseR()
 
 			if(score1>score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -1009,7 +1009,7 @@ void CStudentDlg::OnMenuitemSortByMathN()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -1040,7 +1040,7 @@ void CStudentDlg::OnMenuitemSortByMathN()
 
 			if(score1<score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
@@ -1094,7 +1094,7 @@ void CStudentDlg::OnMenuitemSortByMathR()
 		num++;
 		i++;
 	}
-	struct Item ListItem[100];
+	struct StudentItem ListItem[100];
 
 	for(i=0;i<num;i++)
 	{
@@ -1125,7 +1125,7 @@ void CStudentDlg::OnMenuitemSortByMathR()
 
 			if(score1>score2)
 			{
-				struct Item TempItem;
+				struct StudentItem TempItem;
 
 				TempItem.StrID=ListItem[j].StrID;
                 TempItem.StrName=ListItem[j].StrName;
